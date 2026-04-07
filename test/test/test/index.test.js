@@ -1,4 +1,4 @@
-const { capitalizeWords, filterActiveUsers, logAction } = require('../../index')
+const { capitalizeWords, filterActiveUsers, logAction } = require('../../../index')
 
 test("capitalizeWords", () => {
     expect(capitalizeWords("hello world")).toBe("Hello World")
